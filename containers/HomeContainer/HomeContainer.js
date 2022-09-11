@@ -31,7 +31,6 @@ const HomeContainer = () => {
           <ButtonSeeMore name='記録をもっと見る' />
         </div>
       </div>
-      <div className='w-full'></div>
     </Layout>
   );
 };

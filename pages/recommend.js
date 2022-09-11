@@ -1,15 +1,15 @@
 import Head from 'next/head';
-import HomeContainer from '~/containers/HomeContainer';
+import RecommendContainer from '~/containers/RecommendContainer';
 
 export default function Home() {
   return (
     <>
       <Head>
         <title>Health App</title>
-        <meta name='anhtu' content='Health App For You' />
+        <meta name='description' content='Recommed For You' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <HomeContainer />
+      <RecommendContainer />
     </>
   );
 }
