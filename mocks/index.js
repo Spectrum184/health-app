@@ -2,14 +2,44 @@ export const navbarData = [
   {
     icon: 'memo',
     text: '自分の記録',
+    link: '/',
   },
   {
     icon: 'challenge',
     text: 'チャレンジ',
+    link: '/',
   },
   {
     icon: 'info',
     text: 'お知らせ',
+    link: '/',
+  },
+];
+
+export const menuData = [
+  {
+    text: '自分の記録',
+    link: '/',
+  },
+  {
+    text: '体重グラフ',
+    link: '/',
+  },
+  {
+    text: '目標',
+    link: '/',
+  },
+  {
+    text: '選択中のコース',
+    link: '/',
+  },
+  {
+    text: 'コラム一覧',
+    link: '/',
+  },
+  {
+    text: '設定',
+    link: '/',
   },
 ];
 
