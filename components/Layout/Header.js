@@ -2,6 +2,7 @@ import SvgIcon from '../SvgIcon';
 import React, { useRef, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import clsx from 'clsx';
 import { menuData, navbarData } from '~/mocks';
 import { useClickOutside } from '~/hooks';
 
@@ -65,7 +66,13 @@ const Header = () => {
                 {menuData.map((item, index) => (
                   <li
                     key={index}
-                    className='font-light text-lg text-white py-[23px] pl-8 h-[72px] border-b border-ha-gray-500 mix-blend-normal'
+                    className={clsx(
+                      'font-light text-lg text-white py-[23px] pl-8 h-[72px] mix-blend-normal',
+                      {
+                        'border-b border-ha-gray-500':
+                          index < menuData.length - 1,
+                      }
+                    )}
                   >
                     <Link href={item.link}>
                       <a>{item.text}</a>
