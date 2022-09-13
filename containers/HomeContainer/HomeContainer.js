@@ -14,7 +14,7 @@ const HomeContainer = () => {
         <DailyAchievement />
         <BodyScoreGraph />
       </div>
-      <div className='w-full xl:px-[160px] md:px-20 px-4 mt-6 mb-16'>
+      <div className='w-full xl:px-[160px] px-4 mt-6 mb-16'>
         <div className='flex justify-center flex-wrap'>
           {transitionButtonData.map((item, index) => (
             <div key={index} className='xl:mx-[42px] md:mx-4 mx-2'>
@@ -31,7 +31,6 @@ const HomeContainer = () => {
           <ButtonSeeMore name='記録をもっと見る' />
         </div>
       </div>
-      <div className='w-full'></div>
     </Layout>
   );
 };

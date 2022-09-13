@@ -18,6 +18,9 @@ module.exports = {
         'ha-primary-340': 'linear-gradient(180deg, #FFCC21 0%, #FF963C 100%)',
         'ha-secondary-300': '#8FE9D0',
       },
+      fontSize: {
+        'ha-title': '15px',
+      },
     },
   },
   plugins: [require('@tailwindcss/line-clamp')],

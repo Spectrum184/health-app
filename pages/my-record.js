@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import MyRecordContainer from '~/containers/MyRecordContainer';
 
-export default function Home() {
+export default function MyRecordPage() {
   return (
     <>
       <Head>

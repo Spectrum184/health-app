@@ -7,7 +7,7 @@ export const navbarData = [
   {
     icon: 'challenge',
     text: 'チャレンジ',
-    link: '/',
+    link: '/recommend',
   },
   {
     icon: 'info',
@@ -250,3 +250,98 @@ export const dairyData = new Array(8).fill(0).map(() => {
       '私の日記の記録が一部表示されます。テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト…テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト…',
   };
 });
+export const recommendButtonData = [
+  {
+    engText: 'RECOMMEND COLUMN',
+    jpText: 'オススメ',
+  },
+  {
+    engText: 'RECOMMEND DIET',
+    jpText: 'ダイエット',
+  },
+  {
+    engText: 'RECOMMEND BEAUTY',
+    jpText: '美容',
+  },
+  {
+    engText: 'RECOMMEND HEALTHY',
+    jpText: '健康',
+  },
+];
+
+export const recommendData = [
+  {
+    image: '/images/column-1.jpg',
+    date: '2021-05-17',
+    time: '23:25',
+    content: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ… ',
+    hashtag: ['魚料理', '和食', 'DHA'],
+  },
+  {
+    image: '/images/column-2.jpg',
+    date: '2021-05-17',
+    time: '23:25',
+    content: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ… ',
+    hashtag: ['魚料理', '和食', 'DHA'],
+  },
+  {
+    image: '/images/column-3.jpg',
+    date: '2021-05-17',
+    time: '23:25',
+    content: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ… ',
+    hashtag: ['魚料理', '和食', 'DHA'],
+  },
+  {
+    image: '/images/column-4.jpg',
+    date: '2021-05-17',
+    time: '23:25',
+    content: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ… ',
+    hashtag: ['魚料理', '和食', 'DHA'],
+  },
+  {
+    image: '/images/column-5.jpg',
+    date: '2021-05-17',
+    time: '23:25',
+    content: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ… ',
+    hashtag: ['魚料理', '和食', 'DHA'],
+  },
+  {
+    image: '/images/column-6.jpg',
+    date: '2021-05-17',
+    time: '23:25',
+    content: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ… ',
+    hashtag: ['魚料理', '和食', 'DHA'],
+  },
+  {
+    image: '/images/column-7.jpg',
+    date: '2021-05-17',
+    time: '23:25',
+    content: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ… ',
+    hashtag: ['魚料理', '和食', 'DHA'],
+  },
+  {
+    image: '/images/column-8.jpg',
+    date: '2021-05-17',
+    time: '23:25',
+    content: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ… ',
+    hashtag: ['魚料理', '和食', 'DHA'],
+  },
+];
+
+export const myRecordButtonData = [
+  {
+    image: '/images/MyRecommend-1.jpg',
+    engText: 'BODY RECORD',
+    jpText: '自分のカラダの記録',
+  },
+  {
+    image: '/images/MyRecommend-2.jpg',
+    engText: 'MY EXERCISE',
+    jpText: '自分の運動の記録',
+  },
+  {
+    image: '/images/MyRecommend-3.jpg',
+    engText: 'MY DIARY',
+    jpText: '自分の日記',
+  },
+];
