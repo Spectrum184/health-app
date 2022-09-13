@@ -11,6 +11,7 @@ module.exports = {
         'ha-dark-500': '#414141',
         'ha-gray-400': '#777777',
         'ha-gray-500': '#2E2E2E',
+        'ha-gray-600': '#707070',
         'ha-primary-300': '#FFCC21',
         'ha-primary-400': '#FF963C',
         'ha-primary-500': '#EA6C00',
