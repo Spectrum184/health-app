@@ -3,7 +3,7 @@ import React from 'react';
 const MenuRecord = ({ image, title, content }) => {
   return (
     <div
-      className='relative h-72 w-72 flex items-center justify-center flex-col border-[24px] border-ha-primary-300 mb-3 md:mb-0'
+      className='relative h-72 w-72 flex items-center justify-center flex-col border-[24px] border-ha-primary-300 mb-4 xl:mb-0 mr-4 xl:mr-0'
       style={{
         backgroundImage: `url('${image}')`,
         backgroundRepeat: 'no-repeat',

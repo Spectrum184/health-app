@@ -6,7 +6,7 @@ import { bodyRecordDataChart, bodyRecordType } from '~/mocks';
 
 const BodyRecordChart = () => {
   return (
-    <div className='h-96 w-full bg-ha-dark-600 pt-4'>
+    <div className='h-96 w-full bg-ha-dark-500 pt-4'>
       <div className='flex ml-6'>
         <h3 className='text-white font-normal text-base'>
           BODY

@@ -230,3 +230,23 @@ export const bodyRecordType = [
     label: '年',
   },
 ];
+
+export const exerciseData = {
+  date: '2022-05-21',
+  data: new Array(20).fill(null).map(() => {
+    return {
+      kcal: '26kcal',
+      job: '家事全般（立位・軽い）',
+      time: '10 min',
+    };
+  }),
+};
+
+export const dairyData = new Array(8).fill(0).map(() => {
+  return {
+    date: '2022-05-21',
+    time: '23:25',
+    content:
+      '私の日記の記録が一部表示されます。テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト…テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト…',
+  };
+});

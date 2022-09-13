@@ -223,3 +223,19 @@ export const Arrow = (className) => (
     />
   </svg>
 );
+
+export const Dot = (className) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    width='5'
+    height='6'
+    viewBox='0 0 5 6'
+    fill='none'
+    {...className}
+  >
+    <path
+      d='M2.5 0.91C1.96 0.91 1.42 1.12 1.03 1.475C0.555 1.91 0.305 2.47 0.305 3.1C0.305 4.31 1.29 5.295 2.5 5.295C3.71 5.295 4.69 4.315 4.69 3.1C4.69 2.555 4.49 2.035 4.125 1.635C3.7 1.165 3.13 0.91 2.5 0.91Z'
+      fill='white'
+    />
+  </svg>
+);

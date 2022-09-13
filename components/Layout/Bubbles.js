@@ -12,7 +12,7 @@ const Bubbles = () => {
 
   return (
     <button
-      className='h-12 w-12 fixed bottom-20 rounded-full border right-10 flex justify-center items-center hover:bg-ha-primary-400'
+      className='h-12 w-12 fixed bottom-20 rounded-full border right-10 flex justify-center items-center hover:bg-ha-primary-400 border-ha-gray-500'
       onClick={onClick}
     >
       <SvgIcon name='arrow' />
