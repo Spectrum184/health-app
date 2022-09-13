@@ -67,7 +67,7 @@ const Header = () => {
                   <li
                     key={index}
                     className={clsx(
-                      'font-light text-lg text-white py-[23px] pl-8 h-[72px] mix-blend-normal',
+                      'font-light text-lg text-white mix-blend-normal h-[72px] flex',
                       {
                         'border-b border-ha-gray-500':
                           index < menuData.length - 1,
@@ -75,7 +75,9 @@ const Header = () => {
                     )}
                   >
                     <Link href={item.link}>
-                      <a>{item.text}</a>
+                      <a className='py-[23px] pl-8 w-full h-[72px] hover:opacity-80'>
+                        {item.text}
+                      </a>
                     </Link>
                   </li>
                 ))}

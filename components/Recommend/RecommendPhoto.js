@@ -5,7 +5,7 @@ import React from 'react';
 const RecommendPhoto = ({ image, date, time, content, hashtag }) => {
   return (
     <div className='flex flex-col'>
-      <div className='relative h-36'>
+      <div className='relative h-36 cursor-pointer'>
         <Image
           src={image}
           layout='fill'
@@ -17,12 +17,12 @@ const RecommendPhoto = ({ image, date, time, content, hashtag }) => {
           {`${moment(date, 'YYYY-MM-DD').format('MM.DD')} ${time}`}
         </span>
       </div>
-      <div className='h-[46px] mt-2 text-black font-light line-clamp-2 text-ha-title'>
+      <h3 className='h-[46px] mt-2 text-black font-light line-clamp-2 text-ha-title cursor-pointer hover:opacity-80'>
         {content}
-      </div>
+      </h3>
       <p className='text-xs font-light text-ha-primary-400'>
         {hashtag.map((item, index) => (
-          <span className='mr-2' key={index}>
+          <span className='mr-2 hover:underline cursor-pointer' key={index}>
             #{item}
           </span>
         ))}
