@@ -2,14 +2,44 @@ export const navbarData = [
   {
     icon: 'memo',
     text: '自分の記録',
+    link: '/',
   },
   {
     icon: 'challenge',
     text: 'チャレンジ',
+    link: '/',
   },
   {
     icon: 'info',
     text: 'お知らせ',
+    link: '/',
+  },
+];
+
+export const menuData = [
+  {
+    text: '自分の記録',
+    link: '/',
+  },
+  {
+    text: '体重グラフ',
+    link: '/',
+  },
+  {
+    text: '目標',
+    link: '/',
+  },
+  {
+    text: '選択中のコース',
+    link: '/',
+  },
+  {
+    text: 'コラム一覧',
+    link: '/',
+  },
+  {
+    text: '設定',
+    link: '/',
   },
 ];
 
@@ -187,6 +217,8 @@ export const recommendData = [
     image: '/images/column-4.jpg',
     date: '2021-05-17',
     time: '23:25',
+    content: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ… ',
+    hashtag: '#魚料理 #和食 #DHA',
   },
   {
     image: '/images/column-5.jpg',
@@ -215,5 +247,23 @@ export const recommendData = [
     time: '23:25',
     content: '魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ… ',
     hashtag: '#魚料理 #和食 #DHA',
+  },
+];
+
+export const myRecordButtonData = [
+  {
+    image: '/images/MyRecommend-1.jpg',
+    engText: 'BODY RECORD',
+    jpText: '自分のカラダの記録',
+  },
+  {
+    image: '/images/MyRecommend-2.jpg',
+    engText: 'MY EXERCISE',
+    jpText: '自分の運動の記録',
+  },
+  {
+    image: '/images/MyRecommend-3.jpg',
+    engText: 'MY DIARY',
+    jpText: '自分の日記',
   },
 ];

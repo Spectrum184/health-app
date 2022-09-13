@@ -4,7 +4,7 @@ import React from 'react';
 
 const RecommedPhoto = ({ image, date, time, content, hashtag }) => {
   return (
-    <div className='flex flex-col mr-2'>
+    <div className='flex flex-col'>
       <div className='relative h-36'>
         <Image
           src={image}

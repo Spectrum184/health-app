@@ -1,4 +1,4 @@
-import { Challenge, Cup, Info, Knife, Memo, Menu } from './Icons';
+import { Challenge, Close, Cup, Info, Knife, Memo, Menu } from './Icons';
 import React from 'react';
 
 const SvgComponent = ({ className, name = 'default' }) => {
@@ -19,6 +19,9 @@ const SvgComponent = ({ className, name = 'default' }) => {
       break;
     case 'cup':
       SvgComp = Cup;
+      break;
+    case 'close':
+      SvgComp = Close;
       break;
 
     default:

@@ -1,7 +1,8 @@
+import React from 'react';
+import MyRecordContainer from '~/containers/MyRecord/MyRecordContainer';
 import Head from 'next/head';
-import RecommendContainer from '~/containers/RecommendContainer';
 
-export default function Home() {
+const myRecord = () => {
   return (
     <>
       <Head>
@@ -9,7 +10,9 @@ export default function Home() {
         {/* <meta name='anhtu' content='Health App For You' />
         <link rel='icon' href='/favicon.ico' /> */}
       </Head>
-      <RecommendContainer />
+      <MyRecordContainer />
     </>
   );
-}
+};
+
+export default myRecord;

@@ -8,7 +8,7 @@ import RecommendButton from '~/components/Recommend/RecommendButton';
 const RecommendContainer = () => {
   return (
     <Layout>
-      <div className='w-full xl:px-[160px] md:px-20 px-4 mb-16'>
+      <div className='w-full xl:px-[160px] mb-16'>
         <div className='flex justify-center flex-wrap'>
           {recommendButtonData.map((item, index) => (
             <div key={index} className='xl:mx-[16px] md:mx-2 mx-1 mt-6'>
