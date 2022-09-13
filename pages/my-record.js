@@ -6,7 +6,7 @@ export default function MyRecordPage() {
     <>
       <Head>
         <title>Health App | My Record</title>
-        <meta name='description' content='Thanh dep trai vcl' />
+        <meta name='description' content='Health App' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <MyRecordContainer />
