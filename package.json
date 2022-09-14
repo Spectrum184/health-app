@@ -10,6 +10,7 @@
     "lint:fix": "next lint --fix"
   },
   "dependencies": {
+    "@tailwindcss/line-clamp": "^0.4.2",
     "chart.js": "^3.9.1",
     "clsx": "^1.2.1",
     "moment": "^2.29.4",

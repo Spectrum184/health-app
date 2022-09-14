@@ -8,3 +8,13 @@ body {
   margin: 0;
   font-family: Inter, Noto Sans JP, sans-serif;
 }
+
+::-webkit-scrollbar {
+  width: 6px;
+  background: #777777;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffcc21;
+}

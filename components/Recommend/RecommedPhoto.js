@@ -4,8 +4,8 @@ import React from 'react';
 
 const RecommedPhoto = ({ image, date, time, content, hashtag }) => {
   return (
-    <div className='flex flex-col'>
-      <div className='relative h-36'>
+    <div className='w-auto mb-6'>
+      <div className='relative h-36 w-auto'>
         <Image
           src={image}
           layout='fill'
@@ -13,16 +13,16 @@ const RecommedPhoto = ({ image, date, time, content, hashtag }) => {
           alt='undefined'
           objectFit='cover'
         />
-        <span className='absolute bottom-0 px-2 py-1 text-white text-sm bg-ha-primary-300'>
+        <div className='absolute bottom-0 text-white text-sm bg-ha-primary-300 sm:block hidden'>
           {moment(date, 'YYYY-MM-DD').format('MM.DD')}
           {` ${time}`}
-        </span>
+        </div>
       </div>
-      <div className=' h-[46px] mt-2 text-black text-sm font-light'>
+      <div className=' text-black text-sm font-light sm:block hidden'>
         {content}
       </div>
       <div
-        className=' text-black text-xs font-light'
+        className=' text-black text-xs font-light sm:block hidden'
         style={{ color: '#FF963C' }}
       >
         {hashtag}

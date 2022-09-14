@@ -8,20 +8,18 @@ import RecommendButton from '~/components/Recommend/RecommendButton';
 const RecommendContainer = () => {
   return (
     <Layout>
-      <div className='w-full xl:px-[160px] mb-16'>
-        <div className='flex justify-center flex-wrap'>
+      <div className='flex flex-col justify-center w-full sm:px-40'>
+        <div className=' self-center flex  lg:w-[960px] mt-14 flex-wrap justify-between mb-14 '>
           {recommendButtonData.map((item, index) => (
-            <div key={index} className='xl:mx-[16px] md:mx-2 mx-1 mt-6'>
-              <RecommendButton {...item} />
-            </div>
+            <RecommendButton {...item} key={index} />
           ))}
         </div>
-        <div className='grid grid-cols-2 md:grid-cols-4 gap-2 mt-14 mb-7 mx-40'>
+        <div className=' self-center grid grid-cols-2 md:grid-cols-4 gap-2'>
           {recommendData.map((item, index) => (
             <RecommedPhoto key={index} {...item} />
           ))}
         </div>
-        <div className='flex justify-center'>
+        <div className=' self-center mb-16'>
           <ButtonSeeMore name='コラムをもっと見る' />
         </div>
       </div>

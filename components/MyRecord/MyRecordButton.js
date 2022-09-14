@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const MyRecordButton = ({ image, engText, jpText }) => {
   return (
-    <div className=' w-72 h-72 border-[24px] border-[#FFCC21] relative bg-ha-dark-600'>
+    <div className=' w-72 h-72 border-[24px] border-[#FFCC21] relative bg-ha-dark-600 mt-14'>
       <div className=' w-full h-full mix-blend-luminosity overflow-hidden opacity-25 grayscale-[100%]'>
         <Image
           src={image}
