@@ -8,13 +8,13 @@ import RecommendButton from '~/components/Recommend/RecommendButton';
 const RecommendContainer = () => {
   return (
     <Layout>
-      <div className='flex flex-col justify-center w-full sm:px-40'>
-        <div className=' self-center flex  lg:w-[960px] mt-14 flex-wrap justify-between mb-14 '>
+      <div className='flex flex-wrap justify-center w-full sm:px-40 px-16'>
+        <div className=' self-center flex lg:w-[960px] mt-14 flex-wrap justify-between mb-14 '>
           {recommendButtonData.map((item, index) => (
             <RecommendButton {...item} key={index} />
           ))}
         </div>
-        <div className=' self-center grid grid-cols-2 md:grid-cols-4 gap-2'>
+        <div className=' self-center grid md:grid-cols-2 xl:grid-cols-4 grid-cols-1 gap-2'>
           {recommendData.map((item, index) => (
             <RecommedPhoto key={index} {...item} />
           ))}

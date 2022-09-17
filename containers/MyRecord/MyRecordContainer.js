@@ -4,20 +4,20 @@ import Layout from '~/components/Layout';
 import ButtonSeeMore from '~/components/ButtonSeeMore';
 import { myDiaryData, myRecordButtonData } from '~/mocks';
 import MyRecordButton from '~/components/MyRecord/MyRecordButton';
-import BodyScoreGraph from '~/components/Home/BodyScoreGraph';
+import BodyRecordChart from '~/components/MyRecord/BodyRecordChart';
 import MyExercise from '~/components/MyRecord/MyExercise';
 
 const MyRecordContainer = () => {
   return (
     <Layout>
-      <div className='flex flex-wrap justify-center xl:px-40 px-1 mb-16'>
+      <div className='flex flex-wrap justify-center xl:px-40 md:px-20 px-1 mb-16'>
         <div className=' self-center w-[960px] flex flex-wrap justify-between text-center '>
           {myRecordButtonData.map((item, index) => (
             <MyRecordButton key={index} {...item} />
           ))}
         </div>
         <div className='self-center w-full mt-14'>
-          <BodyScoreGraph />
+          <BodyRecordChart />
         </div>
         <div className=' self-center w-full mt-14 bg-ha-dark-500 px-6 py-4'>
           <MyExercise />
@@ -31,7 +31,7 @@ const MyRecordContainer = () => {
           </div>
         </div>
         <div className='flex justify-center'>
-          <ButtonSeeMore name='コラムをもっと見る' />
+          <ButtonSeeMore name='自分の日記をもっと見る' />
         </div>
       </div>
     </Layout>
